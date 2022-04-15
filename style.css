@@ -5,6 +5,7 @@
 .header{
     display: flex;
     justify-content:space-between;
+    padding: 20px 0;
 }
 
 ul{
@@ -28,12 +29,13 @@ a ,p{
 }
 #Hero{
     background-color: #1F2937;
-    padding: 0 150px;
+    padding: 0 200px 0 120px;
     display: flex;
     flex-direction: column;
 }
 #Hero .container{
     display: flex;
+    gap: 50px;
     padding:100px 0;
     flex:1 1 0
 }
@@ -42,27 +44,28 @@ a ,p{
     font-weight: bolder;
     color: #F9FAF8;
 }
-#Hero .button{
+.button{
     background-color: #3882F6;
     border-radius:5px;
     color: #E5E7EB;
     border: none;
     padding: 8px 3px;
-    width: 100px;   
+    width: 100px; 
+    font-weight: bold;  
 }
 #Hero p{
     margin-bottom: 10px;
 }
 #Hero img{
     flex: 1 1 0;
-   /* width :300px;*/
-    height: 200px;
+   width :450px;
+   height:250px;
 }
 .text{
     flex:1 1 0;
 }
 #tile-area{
-    padding: 0 150px;
+    padding:0 200px 0 120px;
 }
 #tile-area h1{
     font-size: 36px;
@@ -73,7 +76,7 @@ a ,p{
 }
 .tile-container{
     display: flex;
-    gap :30px;
+    gap :50px;
     justify-content: center;
     margin-bottom: 100px;
 }
@@ -83,7 +86,7 @@ a ,p{
 .card{
     width: 150px;
     height:150px;
-    border-width: 2px;
+    border-width: 5px;
     border-color: #3882F6;
     border-style: solid;
     border-radius: 20px;
@@ -94,7 +97,7 @@ a ,p{
     text-align: center;
 }
 #quote{
-    padding: 100px 300px;
+    padding: 150px 250px;
     background-color: #E5E7EB;
 }
 .quote-text{
@@ -108,4 +111,27 @@ a ,p{
     text-align: right;
     font-size: 36px;
     font-weight:bold;
+}
+#action{
+   padding: 100px 200px 100px 120px;
+}
+#action .container{
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: flex-start;
+}
+#action .text{
+    padding: 50px 100px;
+}
+#action .button{
+    border-color: #F9FAF8;
+    border-style: solid;
+    margin: 0 100px;
+}
+#action h2{
+    font-weight: bolder;
+    color:#E5E7EB;
+    margin:5px 0;
 }
